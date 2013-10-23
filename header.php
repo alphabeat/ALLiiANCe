@@ -43,12 +43,13 @@ session_start();
 		<div class="sixteen columns">
 			<h1 class="remove-bottom" style="margin-top: 40px">ALPHiiSTe</h1>
 			<h5>This is not a joke.</h5>
-			<hr>
-			<ul id="menu" class="menu">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Team</a></li>
-				<li><a href="#">Program</a></li>
-			</ul>
-			<hr>
+			<div id="main-menu">
+				<ul id="menu" class="menu">
+					<li><a href="#">Accueil</a></li>
+					<li><a href="#">Équipe</a></li>
+					<li><a href="#">Programme</a></li>
+					<li><a href="#">Media</a></li>
+				</ul>
+			</div>
 		</div>
 	</div>
