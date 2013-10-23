@@ -2,18 +2,43 @@ body {
 	color : rgb(100,100,100);
 }
 
-hr {
-	margin-bottom: 10px;
+a, a:visited{
+	transition: color 0.5s ease-out 0s;
+}
+
+h2 {
+	color: rgb(56,56,56);
+	text-transform: uppercase;
 	margin-top: 10px;
+	border-top: 1px solid rgb(211, 211, 211);
+	border-bottom: 1px solid rgb(211, 211, 211);
+	text-align: center;
+}
+
+p .center {
+	text-align: center;
+	display: inline;
+}
+
+p .left {
+	text-align: left;
+	display: inline;
+
+}
+
+p .right {
+	text-align: right;
+	display: inline;
+
 }
 
 #main-menu {
-    display: block;
-    text-align: center;
-    border-top: 1px solid rgb(211, 211, 211);
-    border-bottom: 1px solid rgb(211, 211, 211);
-    margin: 20px auto 0px;
-    padding: 12px 0px;
+	display: block;
+	text-align: center;
+	border-top: 1px solid rgb(211, 211, 211);
+	border-bottom: 1px solid rgb(211, 211, 211);
+	margin: 20px auto 0px;
+	padding: 12px 0px;
 }
 
 #menu {
@@ -44,6 +69,13 @@ hr {
 	color: rgb(221, 48, 31);
 }
 
-a, a:visited{
-	transition: color 0.5s ease-out 0s;
+#news {
+	height: 150px;
+}
+
+#news_info {
+	text-align: center;
+	border-top: 1px solid rgb(211, 211, 211);
+	border-bottom: 1px solid rgb(211, 211, 211);
+	margin 0px auto;
 }
