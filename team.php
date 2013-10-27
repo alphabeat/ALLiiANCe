@@ -59,8 +59,8 @@ $("#slider").skeletonSlideShow({
 	width: 900,
 	visibleFor: 7500,
 	pluginLoaded: function(){
-		$('#sliderNavigation .previous_page').html('<');
-		$('#sliderNavigation .next_page').html('>');
+		$('#sliderNavigation .previous_page').html('<img src="images/arrow_left.png" alt="<" />');
+		$('#sliderNavigation .next_page').html('<img src="images/arrow_right.png" alt=">" />');
 	}
 });
 </script>
