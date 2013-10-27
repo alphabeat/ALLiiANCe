@@ -10,7 +10,7 @@ h2 {
 	color: rgb(56,56,56);
 	text-transform: uppercase;
 	margin-top: 10px;
-	border-top: 1px solid rgb(211, 211, 211);
+	/*border-top: 1px solid rgb(211, 211, 211);*/
 	border-bottom: 1px solid rgb(211, 211, 211);
 	text-align: center;
 }
@@ -29,7 +29,20 @@ h2 {
 .right {
 	float: right;
 	display: inline;
+}
 
+.rouge {
+	color: rgb(221, 48, 31);
+}
+
+h1 .rouge {
+	display: inline;
+	font-size : 48px;
+}
+
+h5 .rouge {
+	display: inline;
+	font-size : 18px;
 }
 
 #main-menu {
@@ -76,7 +89,7 @@ a:hover, #menu li a:hover {
 
 #news_info {
 	text-align: center;
-	border-top: 1px solid rgb(211, 211, 211);
+	/*border-top: 1px solid rgb(211, 211, 211);*/
 	border-bottom: 1px solid rgb(211, 211, 211);
 	margin-top : 5px;
 	margin 0px auto;

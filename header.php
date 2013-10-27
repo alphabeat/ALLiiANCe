@@ -11,9 +11,11 @@ session_start();
 	<!-- Basic Page Needs
 	================================================== -->
 	<meta charset="utf-8">
-	<title>ALPHiiSTe</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+	<script type="text/javascript" src="js/jquery.1.8.2.min.js"></script>
+	<script type="text/javascript" src="js/skeletonSlideShow.1.0.js"></script>
+	<title>DiiCTATURe</title>
+	<meta name="description" content="Le site de la liste BdE !">
+	<meta name="author" content="Julien 'Alpha' Kilo">
 
 	<!-- Mobile Specific Metas
 	================================================== -->
@@ -21,9 +23,15 @@ session_start();
 
 	<!-- CSS
 	================================================== -->
+	<!-- Skeleton (toutes les pages) -->
 	<link rel="stylesheet" href="stylesheets/base.css">
 	<link rel="stylesheet" href="stylesheets/skeleton.css">
 	<link rel="stylesheet" href="stylesheets/layout.css">
+
+	<!-- Slide show (team.php) -->
+	<link rel="stylesheet" href="stylesheets/slideshow/style.css" type="text/css"/>
+
+	<!-- Custom (toutes les pages) -->	
 	<link rel="stylesheet" href="stylesheets/custom.css">
 
 	<!--[if lt IE 9]>
@@ -41,8 +49,8 @@ session_start();
 <body>
 	<div class="container">
 		<div class="sixteen columns">
-			<h1 class="remove-bottom" style="margin-top: 40px">DiiCTATURe</h1>
-			<h5>This is not a joke.</h5>
+			<h1 class="remove-bottom" style="margin-top: 40px">D<span class="rouge">ii</span>CTATUR<span class="rouge">e</span></h1>
+			<h5>Th<span class="rouge">i</span>s <span class="rouge">i</span>s not a jok<span class="rouge">e</span>.</h5>
 			<div id="main-menu">
 				<ul id="menu" class="menu">
 					<li><a href="#">Accueil</a></li>

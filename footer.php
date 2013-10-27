@@ -1,5 +1,5 @@
-<section class="container" id="footer">
+<div class="container" id="footer">
 © Alphiste Corporation - 2013
-</section>
+</div>
 </body>
 </html>
