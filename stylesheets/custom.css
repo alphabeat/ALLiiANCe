@@ -15,19 +15,19 @@ h2 {
 	text-align: center;
 }
 
-p .center {
+.center {
 	text-align: center;
 	display: inline;
 }
 
-p .left {
-	text-align: left;
+.left {
+	float: left;
 	display: inline;
 
 }
 
-p .right {
-	text-align: right;
+.right {
+	float: right;
 	display: inline;
 
 }
@@ -59,23 +59,29 @@ p .right {
 	border: none;
 }
 
-#menu li a {
+a, #menu li a {
 	text-decoration : none;
 	margin-left: 15px;
 	margin-right: 15px;
 }
 
-#menu li a:hover {
+a:hover, #menu li a:hover {
 	color: rgb(221, 48, 31);
 }
 
 #news {
-	height: 150px;
+	min-height: 150px;
+	margin-bottom: 20px;
 }
 
 #news_info {
 	text-align: center;
 	border-top: 1px solid rgb(211, 211, 211);
 	border-bottom: 1px solid rgb(211, 211, 211);
+	margin-top : 5px;
 	margin 0px auto;
+}
+
+#footer {
+	border-top: 1px solid rgb(211, 211, 211);
 }

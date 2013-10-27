@@ -41,7 +41,7 @@ session_start();
 <body>
 	<div class="container">
 		<div class="sixteen columns">
-			<h1 class="remove-bottom" style="margin-top: 40px">ALPHiiSTe</h1>
+			<h1 class="remove-bottom" style="margin-top: 40px">DiiCTATURe</h1>
 			<h5>This is not a joke.</h5>
 			<div id="main-menu">
 				<ul id="menu" class="menu">
