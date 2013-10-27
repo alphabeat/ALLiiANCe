@@ -34,6 +34,14 @@ body, div, p, ul, li, h1{
 #slider ul{
 	list-style:none;
 }
+#right_image {
+	padding-right: 150px;
+	float : right;
+}
+#left_image {
+	padding-left: 150px;
+	float : left;
+}
 #slider{
 	/*border-top: 1px solid rgb(211, 211, 211);*/
 	border-bottom: 1px solid rgb(211, 211, 211);
@@ -89,6 +97,9 @@ p{
 }
 
 #right_title{
+text-align : right;
+}
+#right_poste{
 text-align : right;
 }
 #right_text{
