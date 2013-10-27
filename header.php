@@ -53,8 +53,8 @@ session_start();
 			<h5>Th<span class="rouge">i</span>s <span class="rouge">i</span>s not a jok<span class="rouge">e</span>.</h5>
 			<div id="main-menu">
 				<ul id="menu" class="menu">
-					<li><a href="#">Accueil</a></li>
-					<li><a href="#">Équipe</a></li>
+					<li><a href="accueil">Accueil</a></li>
+					<li><a href="equipe">Équipe</a></li>
 					<li><a href="#">Programme</a></li>
 					<li><a href="#">Media</a></li>
 				</ul>

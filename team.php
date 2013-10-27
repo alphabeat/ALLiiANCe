@@ -3,6 +3,7 @@ include('header.php');
 ?>
 <section class="container" id="corps">
 	<div class="sixteen columns">
+		<h2>Notre équipe</h2>
 		<div id="wrapper">
 			<ul id="slider">
 				<li>

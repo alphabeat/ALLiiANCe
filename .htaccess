@@ -1,0 +1,5 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+ RewriteRule ^accueil$ index.php
+ RewriteRule ^equipe$ team.php
